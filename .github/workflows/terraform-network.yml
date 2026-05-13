@@ -23,7 +23,7 @@ permissions:
   pull-requests: write
 
 env:
-  TF_VERSION: "1.14.0"
+  TF_VERSION: "1.14.1"
   AWS_REGION: ${{ vars.AWS_REGION }}
   TF_WORKING_DIR: terraform/envs/dev/network
 
