@@ -1,7 +1,28 @@
-terraform/
-terraform.tfstate
-terraform.tfstate.backup
-*.tfvars
-node_modules/
-.env
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform.lock.hcl
+
+# Kubernetes
 kubeconfig
+
+# Secrets
+*.pem
+*.key
+*.crt
+.env
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
