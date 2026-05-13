@@ -17,6 +17,8 @@ on:
       - "terraform/envs/dev/network/**"
       - ".github/workflows/terraform-network-dev.yml"
 
+  workflow_dispatch:
+
 permissions:
   id-token: write
   contents: read
